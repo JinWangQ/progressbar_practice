@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Head Progress Bar</title>
+	<style>
+		.loading{
+			width: 100%;
+			height: 100%;
+			position: fixed;
+			top:0;
+			left: 0;
+			z-index: 100;
+			background-color: 
+			rgb(193,213,158);
+		}
+		.loading .pic {
+			width:100%;
+			height: 5px;
+			position: absolute;
+			top: 0;
+			left: 0;
+			background: rgb(126,170,87);
+		}
+
+
+	</style>
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+	<script>
+		$(".loading .pic").animate({width:"0%"},100);
+	</script>
+	
+</head>
+<body>
+	<div class="loading">
+		<div class="pic"></div>
+	</div>
+	<header>
+		<img src="http://image.ibb.co/cfMyBc/IMG_4_AA684_AD5302_1.jpg" alt="IMG_4_AA684_AD5302_1" border="0">
+		<img src="http://image.ibb.co/drLEjx/IMG_D12_D78_F3_EACD_1.jpg" alt="IMG_D12_D78_F3_EACD_1" border="0">
+		<img src="http://image.ibb.co/k4CS4x/IMG_E02_AE17_B22_F0_1.jpg" alt="IMG_E02_AE17_B22_F0_1" border="0">
+		<img src="http://image.ibb.co/gVh5rc/IMG_D47_F696_C74_EC_1.jpg" alt="IMG_D47_F696_C74_EC_1" border="0">
+	</header>
+	<script>
+		$(".loading .pic").animate({width:"20%"},100);
+	</script>
+	<section class="banner">
+		<img src="http://image.ibb.co/k5zkrc/IMG_31_BC0151327_A_1.jpg" alt="IMG_31_BC0151327_A_1" border="0">
+		<img src="http://image.ibb.co/jNrn4x/IMG_BEBF0_AF2_DDC9_1.jpg" alt="IMG_BEBF0_AF2_DDC9_1" border="0">
+		<img src="http://image.ibb.co/jpNicH/IMG_18_B0689_AE007_1.jpg" alt="IMG_18_B0689_AE007_1" border="0">
+		<img src="http://image.ibb.co/fNtdBc/IMG_5947_CC2_D4_F17_1.jpg" alt="IMG_5947_CC2_D4_F17_1" border="0">
+	</section>
+	<script>
+		$(".loading .pic").animate({width:"40%"},100);
+	</script>
+	<section class="about"><img src="http://image.ibb.co/hzMwWc/IMG_2556_DA901_B33_1.jpg" alt="IMG_2556_DA901_B33_1" border="0">
+		<img src="http://image.ibb.co/chDArc/IMG_2_EB8442_B474_B_1.jpg" alt="IMG_2_EB8442_B474_B_1" border="0">
+		<img src="http://image.ibb.co/kqsQPx/IMG_75_FABF665425_1.jpg" alt="IMG_75_FABF665425_1" border="0">
+		<img src="http://image.ibb.co/d2hgxH/IMG_EDC5_C6_F6_B320_1.jpg" alt="IMG_EDC5_C6_F6_B320_1" border="0">
+		<img src="http://image.ibb.co/kV0qrc/IMG_DD07_C87_AF5_DB_1.jpg" alt="IMG_DD07_C87_AF5_DB_1" border="0">
+
+	</section>
+<script>
+		$(".loading .pic").animate({width:"60%"},100);
+	</script>
+	<section class="pro">
+		<img src="http://image.ibb.co/cA4TcH/IMG_CF726_C0_C838_F_1.jpg" alt="IMG_CF726_C0_C838_F_1" border="0">
+		<img src="http://image.ibb.co/npYzjx/IMG_3_F76_C88_AD9_C0_1.jpg" alt="IMG_3_F76_C88_AD9_C0_1" border="0">
+		<img src="http://image.ibb.co/g4sEHH/IMG_4698926_A4034_1.jpg" alt="IMG_4698926_A4034_1" border="0">
+		</section>
+	<section class="news">
+		<img src="http://image.ibb.co/jAqejx/IMG_ED86462939_CF_1.jpg" alt="IMG_ED86462939_CF_1" border="0">
+	</section>
+	<script>
+		$(".loading .pic").animate({width:"80%"},100);
+	</script>
+	<footer>
+		<img src="http://image.ibb.co/dZBkPx/IMG_E1_E0_D7_DA753_F_1.jpg" alt="IMG_E1_E0_D7_DA753_F_1" border="0">
+	</footer>
+    <script>
+		$(".loading .pic").animate({width:"100%"},100, function(){
+			$(".loading").fadeOut('slow','linear', function() {
+				
+			});
+		});
+	</script>
+
+</body>
+</html>
